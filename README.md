@@ -176,7 +176,7 @@ Serviço híbrido (Background Service + GUI) nativo em **Go 1.22** para integra�
 
 - **GitHub:** [@AlexAlves100](https://github.com/AlexAlves100)
 - **LinkedIn:** [Alex Alves](https://linkedin.com/in/alexalves100)
-- **E-mail:** alex.alves.dev@proton.me
+- **E-mail:** alex_alves100@hotmail.com
 
 ---
 
