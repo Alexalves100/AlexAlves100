@@ -17,7 +17,9 @@ Bem-vindo ao meu portfólio público! Este repositório centraliza a documentaç
 
 Sistema completo para monitoramento de rondas, vigilantes, checkpoints (QR Code/NFC), incidentes e relatórios em tempo real. Arquitetura **Multi-Tenant** com isolamento de dados por empresa.
 
-### 🏗️ Arquitetura
+### � **Produção:** https://guard360security.com/
+
+### �🏗️ Arquitetura
 - **Backend:** Laravel 10 (PHP 8.2) + MySQL + JWT (Stateless Auth)
 - **Frontend (Dashboard Admin):** PHP Puro (SSR) + Tailwind CSS (CDN) + Leaflet.js (Mapas) + ApexCharts
 - **Mobile (Vigilantes):** React Native (Expo SDK 54) + Expo Router + NativeWind (Tailwind v4) + SQLite Local (Offline-First) + Firebase Push Notifications
@@ -41,7 +43,9 @@ Sistema completo para monitoramento de rondas, vigilantes, checkpoints (QR Code/
 
 Plataforma robusta para gestão condominial com foco em **portaria inteligente** (leitura de QR Code/Code 128), multi-tenancy estrito, reservas, financeiro e comunicação.
 
-### 🏗️ Arquitetura
+### � **Produção:** https://meucondominio.app.br/
+
+### �🏗️ Arquitetura
 - **Backend:** FastAPI (Python 3.11+) + SQLModel (SQLAlchemy + Pydantic) + MySQL 8.0 / PostgreSQL
 - **Frontend:** React 19 + Vite 7 + Tailwind CSS v4 + Lucide React + Recharts
 - **Auth:** JWT (Access/Refresh Tokens) + Bcrypt + Rate Limiting (5 req/min login)
@@ -65,7 +69,9 @@ Plataforma robusta para gestão condominial com foco em **portaria inteligente**
 
 ERP completo para varejo/serviços com **PDV (Frente de Caixa)**, estoque, financeiro, compras, fiscal (NFe/NFCe/SAT/MDFe) e contabilidade. Projetado para legislação brasileira (SEFAZ).
 
-### 🏗️ Arquitetura
+### � **Produção:** https://www.webvendas.guard360security.com/
+
+### �🏗️ Arquitetura
 - **Backend:** FastAPI + SQLAlchemy 2.0 + PostgreSQL (Prod) / SQLite (Dev) + PyNFe (Assinatura XML)
 - **Frontend:** Vue 3 + Vite + Tailwind CSS v4 + Axios + Vue Router + Vue Toastification
 - **Infra:** HTTPS Local (Certificados autoassinados dinâmicos) + Uvicorn/Gunicorn + Docker Ready
@@ -90,7 +96,9 @@ ERP completo para varejo/serviços com **PDV (Frente de Caixa)**, estoque, finan
 
 Plataforma SaaS de alta performance para gestão operacional, financeira, sanitária e genética de fazendas (Bovinos, Equinos, Ovinos, Caprinos). **Zero-Trust**, **Offline-First (PWA)**, **IA Generativa (Text-to-SQL)**.
 
-### 🏗️ Arquitetura
+### � **Produção:** https://fazendeiro.guard360security.com/
+
+### �🏗️ Arquitetura
 - **Backend:** FastAPI (Async) + SQLAlchemy 2.0 (AsyncPG) + **PostgreSQL RLS (Row Level Security)** + Alembic + Celery/Redis
 - **Frontend:** React 19 + Vite 8 + Tailwind CSS v4 + Framer Motion + TanStack Query + Leaflet (Mapas) + Recharts
 - **IA:** LangChain + OpenAI/Gemini/Groq (Agente Text-to-SQL com RLS, Assistente Agro, OCR Notas Fiscais)
@@ -122,7 +130,9 @@ Plataforma SaaS de alta performance para gestão operacional, financeira, sanit�
 
 Serviço híbrido (Background Service + GUI) nativo em **Go 1.22** para integração de Cartórios com o Portal Extrajudicial do TJGO (Selo Digital, Envio de Atos, Cancelamento de Lotes). Roda como **Windows Service** nativo (SCM).
 
-### 🏗️ Arquitetura
+### � **Produção:** Em operação em cartórios parceiros (on-premise)
+
+### �🏗️ Arquitetura
 - **Linguagem:** Go 1.22 (Compilação nativa, single binary ~15MB)
 - **GUI:** `lxn/walk` (Win32 API Wrapper) - Interface nativa Windows com Common Controls v6 (Manifest).
 - **Banco:** SQL Server (T-SQL) via `go-mssqldb` - Conexão via arquivo `Conexao.md` (INI).
