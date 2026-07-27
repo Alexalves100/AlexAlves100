@@ -43,7 +43,7 @@ Sistema completo para monitoramento de rondas, vigilantes, checkpoints (QR Code/
 
 Plataforma robusta para gestão condominial com foco em **portaria inteligente** (leitura de QR Code/Code 128), multi-tenancy estrito, reservas, financeiro e comunicação.
 
-### � **Produção:** https://meucondominio.app.br/
+### � **Produção:** https://meucondo.guard360security.com
 
 ### �🏗️ Arquitetura
 - **Backend:** FastAPI (Python 3.11+) + SQLModel (SQLAlchemy + Pydantic) + MySQL 8.0 / PostgreSQL
